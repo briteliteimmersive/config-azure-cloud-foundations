@@ -11,7 +11,7 @@ jobs:
     # permissions:
     #   id-token: write # need this for OIDC
     #   contents: read
-    uses: briteliteimmersive/devops-automation-enablers/.github/reusable-workflows/tf-deploy.yml@main
+    uses: briteliteimmersive/devops-automation-enablers/.github/reusable-workflows/tf-deploy.yml@feature/tf-workflows
     with:
       gh-env: 'sandbox'
       gh-runner: 'ubuntu-latest'
