@@ -1,0 +1,18 @@
+name: Workflow for deploying management groups to sandbox environment
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  infra-deploy:
+    # permissions:
+    #   id-token: write # need this for OIDC
+    #   contents: read
+    uses: briteliteimmersive/devops-automation-enablers/.github/reusable-workflows/tf-deploy.yml@main
+    with:
+      gh-env: 'sandbox'
+      gh-runner: 'ubuntu-latest'
+      tf-version: '1.2.1'
+    secrets: inherit
