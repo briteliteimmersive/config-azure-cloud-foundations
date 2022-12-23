@@ -1,20 +1,14 @@
 name: Workflow for deploying management groups to sandbox environment
 
 on:
-  pull_request:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
 
   infra-deploy:
-    # permissions:
-    #   id-token: write # need this for OIDC
-    #   contents: read
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@feature/tf-workflows
     with:
       gh-env: 'sandbox'
-      gh-runner: 'ubuntu-latest'
-      tf-version: '1.2.1'
-      tf-code-repo: 'azure-cloud-foundations'
+      tf-version: '1.3.0'
+      tf-module-name: 'management-groups'
     secrets: inherit
