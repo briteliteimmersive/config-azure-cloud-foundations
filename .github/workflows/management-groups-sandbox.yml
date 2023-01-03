@@ -19,17 +19,7 @@ on:
 jobs:
 
   infra-deploy:
-    if: github.event.inputs.tf-action == '' || github.event.inputs.tf-action == 'apply'
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
-    with:
-      tf-module-version: '1.0.0'
-      tf-plan-gh-env: 'sandbox-plan'
-      tf-apply-gh-env: 'sandbox-apply'
-    secrets: inherit
-
-  infra-destroy:
-    if: github.event.inputs.tf-action == 'destroy'
-    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-destroy.yml@main
     with:
       tf-module-version: '1.0.0'
       tf-plan-gh-env: 'sandbox-plan'
