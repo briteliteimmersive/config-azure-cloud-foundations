@@ -8,7 +8,7 @@ management_groups  = {
         parent_management_group_id = "MG-O-PR"
     }
     "MG-O-PR-APPLZ" = {
-        display_name = "Prod Application Landing Zones"
+        display_name = "Application Landing Zones"
         parent_management_group_id = "MG-O-PR"
     }
     "MG-O-PR-INTERNAL" = {
