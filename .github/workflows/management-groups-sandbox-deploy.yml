@@ -1,15 +1,9 @@
 name: Workflow for deploying management groups to sandbox environment
 
 on:
-  workflow_dispatch:
-    inputs:
-      tf-action:
-        type: choice
-        default: apply
-        description: Apply/Destroy Infrastructure
-        options: 
-        - apply
-        - destroy
+  push:
+    branches:
+      - 'main'
 
 jobs:
 
