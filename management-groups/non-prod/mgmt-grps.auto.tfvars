@@ -4,7 +4,7 @@ root_id            = "MG-O-NP"
 root_name          = "OCVibe Non-Prod"
 management_groups  = {
     "MG-O-NP-APPLZ" = {
-        display_name = "Non-Prod Application Landing Zones"
+        display_name = "Application Landing Zones"
         parent_management_group_id = "MG-O-NP"
     }
     "MG-O-NP-INTERNAL" = {
