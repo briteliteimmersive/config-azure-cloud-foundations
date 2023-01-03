@@ -1,4 +1,4 @@
-name: Workflow for deploying management groups to sandbox environment
+name: management-groups/sandbox
 
 on:
   push:
