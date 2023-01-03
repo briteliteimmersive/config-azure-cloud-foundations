@@ -21,7 +21,7 @@ jobs:
   infra-deploy:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@feature/tf-workflows
     with:
-      gh-env: 'sandbox'
+      tf-apply-env: 'sandbox-apply'
       tf-module-version: '1.0.0'
       tf-module-name: 'management-groups'
       tfvars-directory: 'sandbox'
