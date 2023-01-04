@@ -1,0 +1,27 @@
+name: subscription/transit-services/sub001
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'subscription/transit-services/sub001/**'
+  workflow_dispatch:
+    inputs:
+      tf-action:
+        type: choice
+        default: apply
+        description: Apply/Destroy Infrastructure
+        options: 
+        - apply
+        - destroy
+
+jobs:
+
+  infra-deploy:
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
+    with:
+      tf-module-version: '1.0.0'
+      tf-plan-gh-env: 'prod-plan'
+      tf-apply-gh-env: 'prod-apply'
+    secrets: inherit
