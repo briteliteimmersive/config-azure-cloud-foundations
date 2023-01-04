@@ -1,4 +1,4 @@
-name: subscription-global-shared-sub001
+name: subscription/global-shared/sub001
 
 on:
   push:
