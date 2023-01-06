@@ -1,11 +1,11 @@
-name: subscription/global-shared/sub001
+name: subscription/prod/platform/transit-services-sub001
 
 on:
   push:
     branches:
       - 'main'
     paths:
-      - 'subscription/global-shared/sub001/**'
+      - 'subscription/prod/platform/transit-services-sub001/**'
   workflow_dispatch:
     inputs:
       tf-action:
