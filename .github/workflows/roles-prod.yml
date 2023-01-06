@@ -1,11 +1,11 @@
-name: policies/prod
+name: roles/prod
 
 on:
   push:
     branches:
       - 'main'
     paths:
-      - 'policies/prod/**'
+      - 'roles/prod/**'
   workflow_dispatch:
     inputs:
       tf-action:
