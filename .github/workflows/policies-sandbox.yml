@@ -1,0 +1,27 @@
+name: policies/sandbox
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'policies/sandbox/**'
+  workflow_dispatch:
+    inputs:
+      tf-action:
+        type: choice
+        default: apply
+        description: Apply/Destroy Infrastructure
+        options: 
+        - apply
+        - destroy
+
+jobs:
+
+  infra-deploy:
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
+    with:
+      tf-module-version: '1.0.0'
+      tf-plan-gh-env: 'non-prod-plan'
+      tf-apply-gh-env: 'non-prod-apply'
+    secrets: inherit
