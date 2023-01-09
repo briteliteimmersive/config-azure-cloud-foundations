@@ -4,7 +4,7 @@ subscription_spns = [
     role_definition_id = "b24988ac-6180-42a0-ab88-20f7382dd24c"
     gh_environment = {
       name = "test-env"
-      repo_name = "briteliteimmersive/config-azure-cloud-foundations"
+      repo_full_name = "briteliteimmersive/config-azure-cloud-foundations"
     }
   }
 ]
