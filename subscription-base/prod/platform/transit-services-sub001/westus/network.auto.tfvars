@@ -7,8 +7,6 @@ network_configs = {
       {
         name                        = "AzureFirewallSubnet"
         address_prefix              = "10.20.0.0/24"
-        associated_route_table_name = "ozi-gx-ts-sub001-u7-rte-cops-p001"
-        associated_nsg_name         = "ozi-gx-ts-sub001-u7-nsg-cops-p001"
       }
     ]
     },
