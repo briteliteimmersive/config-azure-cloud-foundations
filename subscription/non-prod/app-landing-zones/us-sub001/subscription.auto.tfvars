@@ -1,6 +1,6 @@
 subscription_config = {
   subscription_name    = "ozi-gu-np-sub001"
-  management_group_id     = "MG-O-PR-PLATFORM"
+  management_group_id     = "MG-O-NP-APPLZ"
   tags = {
     "solution"             = "fdp-sub"
   }
