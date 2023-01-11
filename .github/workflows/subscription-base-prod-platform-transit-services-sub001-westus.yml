@@ -24,4 +24,5 @@ jobs:
       tf-module-version: '1.1.0'
       tf-plan-gh-env: 'prod-plan'
       tf-apply-gh-env: 'prod-apply'
+      tf-cli-extra-args: '-var gh_token=${{ secrets.TF_GITHUB_PROVIDER_TOKEN }}'
     secrets: inherit
