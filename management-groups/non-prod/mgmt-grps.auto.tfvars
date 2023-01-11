@@ -7,12 +7,4 @@ management_groups  = {
         display_name = "Application Landing Zones"
         parent_management_group_id = "MG-O-NP"
     }
-    "MG-O-NP-INTERNAL" = {
-        display_name = "Internal Applications"
-        parent_management_group_id = "MG-O-NP-APPLZ"
-    }
-    "MG-O-NP-EXTERNAL" = {
-        display_name = "External Applications"
-        parent_management_group_id = "MG-O-NP-APPLZ"
-    }
 }
