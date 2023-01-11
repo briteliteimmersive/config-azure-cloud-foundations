@@ -7,6 +7,8 @@ network_configs = {
       {
         name                        = "AzureFirewallSubnet"
         address_prefix              = "10.20.0.0/24"
+        associated_route_table_name = null
+        associated_nsg_name         = null
       }
     ]
     },
