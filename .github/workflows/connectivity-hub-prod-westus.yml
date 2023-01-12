@@ -22,6 +22,6 @@ jobs:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
     with:
       tf-module-version: '1.0.0'
-      tf-plan-gh-env: 'connectivity-hub-prod'
-      tf-apply-gh-env: 'connectivity-hub-prod'
+      tf-plan-gh-env: 'transit-services-plan-prod'
+      tf-apply-gh-env: 'transit-services-apply-prod'
     secrets: inherit
