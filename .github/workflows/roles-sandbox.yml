@@ -22,6 +22,6 @@ jobs:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
     with:
       tf-module-version: '1.0.0'
-      tf-plan-gh-env: 'sandbox-plan'
-      tf-apply-gh-env: 'sandbox-apply'
+      tf-plan-gh-env: 'foundations-tf-plan-sandbox'
+      tf-apply-gh-env: 'foundations-tf-apply-sandbox'
     secrets: inherit
