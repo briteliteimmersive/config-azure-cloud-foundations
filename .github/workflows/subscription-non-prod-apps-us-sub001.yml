@@ -1,11 +1,11 @@
-name: subscription/non-prod/app-landing-zones/us-sub001
+name: subscription/non-prod/apps/us-sub001
 
 on:
   push:
     branches:
       - 'main'
     paths:
-      - 'subscription/non-prod/app-landing-zones/us-sub001/**'
+      - 'subscription/non-prod/apps/us-sub001/**'
   workflow_dispatch:
     inputs:
       tf-action:
