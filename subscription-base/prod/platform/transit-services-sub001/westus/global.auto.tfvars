@@ -1,8 +1,8 @@
 global_configs = {
   location = "westus"
   mandatory_tags = {
-    app-id        = "cops"
-    solution      = "network-hub"
+    app-id        = "nhub"
+    solution      = "network-hub-westus"
     businessowner = "vyente"
     businessunit  = "n/a"
     costcenter    = "n/a"
