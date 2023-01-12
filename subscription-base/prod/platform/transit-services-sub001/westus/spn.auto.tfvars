@@ -11,6 +11,7 @@ subscription_spns = [
       {
         name = "transit-services-apply-prod"
         repo_name = "config-azure-cloud-foundations"
+        branch_protection_enabled = true
         reviewers = {
           usernames = ["ab0713"]
         }
