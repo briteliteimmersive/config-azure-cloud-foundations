@@ -10,7 +10,7 @@ admin_configs = {
     },
   ]
   keyvault = {
-    name     = "zu7nhub1kvp001"
+    name     = "zu7nhubkvp001"
     sku_name = "premium"
   }
   disk_encryption_sets = [{
