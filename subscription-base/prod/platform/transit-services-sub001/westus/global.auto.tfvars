@@ -13,5 +13,3 @@ global_configs = {
   }
   subscription_id = "81d3bc62-4575-40cd-bd07-9ef1645e66e1"
 }
-
-gh_org_name = "briteliteimmersive"
