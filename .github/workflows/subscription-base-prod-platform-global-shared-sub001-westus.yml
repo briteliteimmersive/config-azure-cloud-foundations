@@ -1,0 +1,28 @@
+name: subscription-base/prod/platform/global-shared-sub001/westus
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'subscription-base/prod/platform/global-shared-sub001/westus/**'
+  workflow_dispatch:
+    inputs:
+      tf-action:
+        type: choice
+        default: apply
+        description: Apply/Destroy Infrastructure
+        options: 
+        - apply
+        - destroy
+
+jobs:
+
+  infra-deploy:
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
+    with:
+      tf-module-version: '1.0.0'
+      tf-plan-gh-env: 'foundations-tf-plan-prod'
+      tf-apply-gh-env: 'foundations-tf-apply-prod'
+      tf-gh-provider-required: true
+    secrets: inherit
