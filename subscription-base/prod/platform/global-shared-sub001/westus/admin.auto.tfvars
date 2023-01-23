@@ -1,8 +1,6 @@
 admin_configs = {
-  resource_group_name = "ozi-u7-gs-rg-mhub--p002"
-  terraform_backend_storage = {
-    name = "oziu7gscsatrfmp001"
-  }
+  resource_group_name = "ozi-u7-gs-rg-mhub-p002"
+  terraform_backend_storage = null
   additional_admin_storage = [
     # VM boot diagonostics
     {
