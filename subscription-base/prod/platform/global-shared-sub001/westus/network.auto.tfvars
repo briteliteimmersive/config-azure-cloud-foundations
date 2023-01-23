@@ -5,4 +5,5 @@ network_configs = {
     address_space = ["172.26.8.0/24"]
     },
   ]
+  subnets         = []
 }
