@@ -4,6 +4,7 @@ admin_configs = {
     # Terraform backend
     {
       name = "oziu7tscsatrfmp001"
+      account_replication_type = "GRS"
     },
     # VM boot diagonostics
     {
