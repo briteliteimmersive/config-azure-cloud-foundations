@@ -5,6 +5,7 @@ admin_configs = {
     {
       name                     = "oziu7tscsatrfmp001"
       account_replication_type = "GRS"
+      containers               = ["tf-state-files"]
     },
     # VM boot diagonostics
     {
