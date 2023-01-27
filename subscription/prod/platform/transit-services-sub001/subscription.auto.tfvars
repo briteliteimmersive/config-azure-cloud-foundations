@@ -1,8 +1,8 @@
 subscription_config = {
-  subscription_name    = "ozi-gx-ts-sub001"
-  management_group_id     = "MG-O-PR-PLATFORM"
+  subscription_name   = "ozi-gx-ts-sub001"
+  management_group_id = "MG-O-PR-PLATFORM"
   tags = {
-    "solution"             = "connectivity-sub"
+    "solution" = "connectivity-sub"
   }
   additional_settings = {
     billng_info = {
@@ -10,22 +10,22 @@ subscription_config = {
       billing_profile_id = "NFSG-XAZX-BG7-PGB"
       invoice_section_id = "WDPB-5HEK-PJA-PGB"
     }
-#     security_center_contact = {
-#       email = "vruffin@ocvibe.com"
-#       alert_notifications = false
-#       alerts_to_admins = false
-#     }
-#     budgets = [
-#       {
-#         budget_name = "Temp"
-#         budget_amount = "1000"
-#         notifications = [
-#           {
-#             operator = "EqualTo"
-#             threshold = "70"
-#           }
-#         ]
-#       }
-#     ]
+    #     security_center_contact = {
+    #       email = "vruffin@ocvibe.com"
+    #       alert_notifications = false
+    #       alerts_to_admins = false
+    #     }
+    #     budgets = [
+    #       {
+    #         budget_name = "Temp"
+    #         budget_amount = "1000"
+    #         notifications = [
+    #           {
+    #             operator = "EqualTo"
+    #             threshold = "70"
+    #           }
+    #         ]
+    #       }
+    #     ]
   }
 }

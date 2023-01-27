@@ -3,7 +3,7 @@ admin_configs = {
   storage_accounts = [
     # Terraform backend
     {
-      name = "oziu7tscsatrfmp001"
+      name                     = "oziu7tscsatrfmp001"
       account_replication_type = "GRS"
     },
     # VM boot diagonostics

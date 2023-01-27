@@ -5,8 +5,8 @@ network_configs = {
     address_space = ["172.26.0.0/21"]
     subnets = [
       {
-        name                        = "AzureFirewallSubnet"
-        address_prefix              = "172.26.0.0/24"
+        name           = "AzureFirewallSubnet"
+        address_prefix = "172.26.0.0/24"
       }
     ]
     },

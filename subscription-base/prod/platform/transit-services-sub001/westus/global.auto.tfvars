@@ -16,5 +16,5 @@ global_configs = {
     name                = "oziu7tscsatrfmp001"
     resource_group_name = "ozi-u7-ts-rg-nhub-p002"
     container_name      = "tf-state-files"
-  }  
+  }
 }
