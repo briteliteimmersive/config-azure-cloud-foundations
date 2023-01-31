@@ -17,7 +17,7 @@ subscription_config = {
           "2cfd4ebc-eb33-429a-b9bc-a0da01b222f8", # aTelang@ocvibe.com
           "cfbbdc40-2e79-4026-be50-63dff57da04a", # wleighton@ocvibe.com  
           "f172b260-fb8d-45c3-bd48-6d0ebb5ad01d", # omcallister@ocvibe.com
-          "eacbdeed-db9a-4ba2-93c5-21002369fc88", # jbreakey@ocvibe.com
+          "d5c6b856-f93b-48b1-bc15-498a914df0a9", # jbreakey@ocvibe.com
           "6c24bd11-db94-4c10-9506-bf77e33e5c39", # rdendi@ocvibe.com
           "2ece9d22-2ef3-445a-b3ef-d64ee35b904c", # silieva@ocvibe.com
           "c3e2e905-cdc7-4e49-89aa-7d0e5f228637", # mhiggins@ocvibe.com
