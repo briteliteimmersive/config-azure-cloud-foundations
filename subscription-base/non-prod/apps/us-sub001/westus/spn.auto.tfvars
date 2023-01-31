@@ -1,7 +1,7 @@
 subscription_spns = [
   {
     name               = "spn-fedp-c-n001"
-    role_definition_id = "b24988ac-6180-42a0-ab88-20f7382dd24c"
+    role_definition_id = "062d45c9-1cf2-52fb-97ca-1d5267b5f33a" # App Infra Provisioner Custom Role
     gh_environments = [
       {
         name                      = "fedp-tf-plan-non-prod"
