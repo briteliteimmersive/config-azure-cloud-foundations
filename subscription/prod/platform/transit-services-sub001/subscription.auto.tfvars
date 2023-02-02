@@ -10,6 +10,14 @@ subscription_config = {
       billing_profile_id = "NFSG-XAZX-BG7-PGB"
       invoice_section_id = "WDPB-5HEK-PJA-PGB"
     }
+    role_assignments = [
+      {
+        role_definition_id = "8e3af657-a8ff-443c-a75c-2fe8c4bcb635" ## Contributor
+        object_ids = [
+          "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+        ]
+      }
+    ]
     #     security_center_contact = {
     #       email = "vruffin@ocvibe.com"
     #       alert_notifications = false
