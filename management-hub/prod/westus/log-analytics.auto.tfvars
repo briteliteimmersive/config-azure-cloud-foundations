@@ -1,6 +1,6 @@
 log_analytics_config = {
   name                = "zu7mhublop001"
-  resource_group_name = "ozi-u7-gs-rg-mhub-p001"
+  resource_group_name = "ozi-u7-gs-rg-mhub-p003"
   sku                 = "PerGB2018"
   automation_account = {
     name = "zu7mhubaup001"

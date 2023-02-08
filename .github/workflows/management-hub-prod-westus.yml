@@ -23,5 +23,5 @@ jobs:
     with:
       tf-module-version: '1.0.0'
       tf-plan-gh-env: 'global-shared-tf-plan-prod'
-      tf-apply-gh-env: 'global-shared-tf-plan-prod'
+      tf-apply-gh-env: 'global-shared-tf-apply-prod'
     secrets: inherit
