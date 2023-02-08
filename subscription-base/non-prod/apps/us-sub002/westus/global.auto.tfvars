@@ -1,7 +1,7 @@
 global_configs = {
   location = "westus"
   mandatory_tags = {
-    app-id        = "lith"
+    app-id        = "lths"
     solution      = "Litehouse"
     businessowner = ""
     businessunit  = "n/a"

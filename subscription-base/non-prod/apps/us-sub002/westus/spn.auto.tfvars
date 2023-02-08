@@ -1,15 +1,15 @@
 subscription_spns = [
   {
-    name               = "spn-lith-c-n001"
+    name               = "spn-lths-c-n001"
     role_definition_id = "062d45c9-1cf2-52fb-97ca-1d5267b5f33a" # App Infra Provisioner Custom Role
     gh_environments = [
       {
-        name                      = "lith-tf-plan-non-prod"
+        name                      = "lths-tf-plan-non-prod"
         repo_name                 = "config-azure-app-infrastructure"
         branch_protection_enabled = false
       },
       {
-        name                      = "lith-tf-apply-non-prod"
+        name                      = "lths-tf-apply-non-prod"
         repo_name                 = "config-azure-app-infrastructure"
         branch_protection_enabled = true
         reviewers = {

@@ -5,7 +5,7 @@ network_configs = {
     address_space = ["172.26.16.0/24"]
     subnets = [
       {
-        name           = "ozi-gu-np-sub002-u7-snt-lith-d001"
+        name           = "ozi-gu-np-sub002-u7-snt-lths-d001"
         address_prefix = "172.26.16.0/27"
       }
     ]
