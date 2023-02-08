@@ -1,11 +1,11 @@
-name: subscription-base/prod/platform/global-shared-sub001/westus
+name: subscription-base/non-prod/apps/us-sub002/westus
 
 on:
   push:
     branches:
       - 'main'
     paths:
-      - 'subscription-base/prod/platform/global-shared-sub001/westus/**'
+      - 'subscription-base/non-prod/apps/us-sub002/westus/**'
   workflow_dispatch:
     inputs:
       tf-action:
@@ -22,7 +22,7 @@ jobs:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
     with:
       tf-module-version: '1.2.0'
-      tf-plan-gh-env: 'foundations-tf-plan-prod'
-      tf-apply-gh-env: 'foundations-tf-apply-prod'
+      tf-plan-gh-env: 'foundations-tf-plan-non-prod'
+      tf-apply-gh-env: 'foundations-tf-apply-non-prod'
       tf-gh-provider-required: true
     secrets: inherit

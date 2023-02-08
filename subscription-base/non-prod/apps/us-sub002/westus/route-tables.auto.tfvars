@@ -1,6 +1,6 @@
 route_table_configs = [
   {
-    name = "ozi-gx-gs-sub001-u7-rte-infr-p001"
+    name = "ozi-gu-np-sub002-u7-rte-infr-n001"
     routes = [
       {
         name                   = "To-Internet"
