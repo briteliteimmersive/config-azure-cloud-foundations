@@ -21,7 +21,7 @@ jobs:
   infra-deploy:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
     with:
-      tf-module-version: '1.1.1'
+      tf-module-version: '1.2.1'
       tf-plan-gh-env: 'foundations-tf-plan-prod'
       tf-apply-gh-env: 'foundations-tf-apply-prod'
       tf-gh-provider-required: true
