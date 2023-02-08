@@ -1,5 +1,5 @@
 admin_configs = {
-  resource_group_name = "ozi-u7-ts-rg-infr-n002"
+  resource_group_name = "ozi-u7-np-rg-infr-n002"
   storage_accounts = [
     {
       name                     = "oziu7npcsatrfmn001"
