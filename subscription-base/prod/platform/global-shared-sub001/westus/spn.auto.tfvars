@@ -1,7 +1,7 @@
 subscription_spns = [
   {
     name               = "spn-mhub-c-p001"
-    role_definition_id = "062d45c9-1cf2-52fb-97ca-1d5267b5f33a" # App Infra Provisioner Custom Role
+    role_definition_id = "345b8f96-a94a-5fef-80bd-058d2b5920a0" # App Infra Provisioner Custom Role
     gh_environments = [
       {
         name                      = "global-shared-tf-plan-prod"
