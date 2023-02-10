@@ -6,6 +6,9 @@ firewall_config = {
   vnet_resource_group_name = "ozi-u7-ts-rg-nhub-p001"
   ip_configs = [
     {
+      name = "fw-primary-pip"
+    },
+    {
       name = "litehouse-dev"
     }
   ]
