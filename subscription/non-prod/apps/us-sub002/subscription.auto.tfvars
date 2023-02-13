@@ -14,13 +14,9 @@ subscription_config = {
       {
         role_definition_id = "acdd72a7-3385-48ef-bd42-f606fba81ae7" ## Reader
         object_ids = [
-          "7714c527-4a0d-4584-977b-f83c013cbab3" ## Fdp_Pwc
-        ]
-      },
-      {
-        role_definition_id = "8e3af657-a8ff-443c-a75c-2fe8c4bcb635" ## Contributor
-        object_ids = [
-          "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+          "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
+          "7c0b1757-e9a3-4efb-8d35-05f237773f97", ## mveloso@ocvibe.com
+          "295f70b2-ed69-42d3-bd76-c1bb9be7cefe"  ## riyer@ocvibe.com
         ]
       }
     ]
