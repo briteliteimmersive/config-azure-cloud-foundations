@@ -7,6 +7,14 @@ network_configs = {
       {
         name           = "AzureFirewallSubnet"
         address_prefix = "172.26.0.0/24"
+      },
+      {
+        name           = "AzureBastionSubnet"
+        address_prefix = "172.26.7.224/27"
+        bastion_host = {
+          name = "zu7inhubbhp001"
+          sku  = "Standard"
+        }
       }
     ]
     },

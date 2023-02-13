@@ -7,6 +7,7 @@ network_configs = {
       {
         name           = "ozi-gu-np-sub002-u7-snt-lths-d001"
         address_prefix = "172.26.16.0/27"
+        associated_nsg_name = "ozi-gu-np-sub002-u7-nsg-lths-d001"
       }
     ]
     },
