@@ -7,7 +7,7 @@ firewall_app_rule_collection = [{
       name = "To-Public-Domains"
       protocol = [{
         port = 443
-        type = "https"
+        type = "Https"
         }
       ]
       source_addresses = ["172.16.0.0/12"]
