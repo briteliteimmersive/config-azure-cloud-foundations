@@ -3,6 +3,7 @@ network_configs = {
   virtual_networks = [{
     name          = "ozi-gu-np-sub002-u7-vnt-n001"
     address_space = ["172.26.16.0/24"]
+    dns_servers   = ["172.26.0.4"]
     subnets = [
       ## CI/CD Subnet
       {
