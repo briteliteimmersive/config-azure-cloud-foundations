@@ -4,13 +4,13 @@ network_configs = {
     name          = "ozi-gu-np-sub002-u7-vnt-n001"
     address_space = ["172.26.16.0/24"]
     subnets = [
-#       ## CI/CD Subnet
-#       {
-#         name           = "ozi-gu-np-sub002-u7-snt-dvop-n001"
-#         address_prefix = "172.26.16.240/28"
-#         associated_nsg_name = "ozi-gu-np-sub002-u7-nsg-dvop-n001"
-#         associated_route_table_name = "ozi-gu-np-sub002-u7-rte-infr-n001"
-#       },
+      ## CI/CD Subnet
+      {
+        name           = "ozi-gu-np-sub002-u7-snt-dvop-n001"
+        address_prefix = "172.26.16.240/28"
+        associated_nsg_name = "ozi-gu-np-sub002-u7-nsg-dvop-n001"
+        associated_route_table_name = "ozi-gu-np-sub002-u7-rte-infr-n001"
+      },
       ## Litehouse Dev Subnet
       {
         name           = "ozi-gu-np-sub002-u7-snt-lths-d001"
