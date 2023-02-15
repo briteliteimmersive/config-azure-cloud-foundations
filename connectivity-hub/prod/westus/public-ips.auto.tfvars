@@ -6,5 +6,10 @@ public_ip_configs = [
     name              = "litehouse-dev-pip"
     prefix_name       = "dev-apps"
     domain_name_label = "litehouse-dev"
+  },
+  {
+    name              = "api-litehouse-dev-pip"
+    prefix_name       = "dev-apps"
+    domain_name_label = "api-litehouse-dev"
   }
 ]
