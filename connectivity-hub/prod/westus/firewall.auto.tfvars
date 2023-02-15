@@ -4,6 +4,7 @@ firewall_config = {
   sku_tier               = "Standard"
   primary_public_ip_name = "fw-primary-pip"
   associated_public_ips = [
-    "litehouse-dev-pip"
+    "litehouse-dev-pip",
+    "api-litehouse-dev-pip"
   ]
 }
