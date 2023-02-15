@@ -9,13 +9,6 @@ firewall_network_rule_collection = [{
       destination_ports     = ["443", "80"]
       protocols             = ["Any"]
       source_addresses      = ["172.16.0.0/12"]
-    },
-    {
-      name              = "To-Public-FQDNs"
-      destination_fqdns = ["google.com"]
-      destination_ports = ["443"]
-      protocols         = ["Any"]
-      source_addresses  = ["172.16.0.0/12"]
     }
   ]
 }]
