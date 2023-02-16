@@ -11,5 +11,9 @@ dns_zones = [
       ]
       ttl = 300
     }]
+  },
+  {
+    name                = "azureapps.briteliteimmersive.io"
+    resource_group_name = "ozi-u7-ts-rg-nhub-p004"
   }
 ]
