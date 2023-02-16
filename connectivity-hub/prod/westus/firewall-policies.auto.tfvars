@@ -3,6 +3,10 @@ firewall_policies = [{
   dns = {
     proxy_enabled = true
     sku           = "Standard"
+    servers       = [
+      "76.79.203.134",  ## NS1.hsventures.net 
+      "76.80.191.198"   ## ns3.hsventures.net
+    ]
   }
   rule_groups = [
     {
