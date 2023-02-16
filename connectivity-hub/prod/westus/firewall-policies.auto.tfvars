@@ -39,7 +39,7 @@ firewall_policies = [{
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.16.4"
-              translated_port     = 80
+              translated_port     = 443
             },
             {
               name                = "api-litehouse-dev"
@@ -48,7 +48,7 @@ firewall_policies = [{
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.16.4"
-              translated_port     = 80
+              translated_port     = 443
             }
           ]
 
