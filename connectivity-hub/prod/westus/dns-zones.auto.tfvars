@@ -1,6 +1,6 @@
 dns_zones = [
   {
-    name                = "westus.cloudapp.azure.com"
+    name                = "azureapps.ocvibe.com"
     resource_group_name = "ozi-u7-ts-rg-nhub-p003"
     txt_records = [{
       name = "_acme-challenge.litehouse-dev"
