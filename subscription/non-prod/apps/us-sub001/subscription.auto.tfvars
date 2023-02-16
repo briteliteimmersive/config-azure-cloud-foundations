@@ -18,12 +18,12 @@ subscription_config = {
           "840289cf-af62-4757-8005-2bdfd5b2779c"  ## Fnb_Pwc
         ]
       },
-#       {
-#         role_definition_id = "8e3af657-a8ff-443c-a75c-2fe8c4bcb635" ## Contributor
-#         object_ids = [
-#           "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
-#         ]
-#       }
+      {
+        role_definition_id = "8e3af657-a8ff-443c-a75c-2fe8c4bcb635" ## Contributor
+        object_ids = [
+          "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+        ]
+      }
     ]
   }
 }
