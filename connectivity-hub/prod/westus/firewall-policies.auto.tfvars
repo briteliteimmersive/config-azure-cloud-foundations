@@ -79,7 +79,7 @@ firewall_policies = [{
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.12.5"
-              translated_port     = 80
+              translated_port     = 21
             }
           ]
 
