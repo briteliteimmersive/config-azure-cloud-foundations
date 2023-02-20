@@ -78,17 +78,8 @@ firewall_policies = [{
               destination_ports   = ["21"]
               protocols           = ["TCP"]
               source_addresses    = ["*"]
-              translated_address  = "172.26.12.5"
+              translated_address  = "172.26.12.4"
               translated_port     = 21
-            },
-            {
-              name                = "fdp-ftp-server-dev"
-              destination_address = "13.86.228.163"
-              destination_ports   = ["20"]
-              protocols           = ["TCP"]
-              source_addresses    = ["*"]
-              translated_address  = "172.26.12.5"
-              translated_port     = 20
             }
           ]
 
