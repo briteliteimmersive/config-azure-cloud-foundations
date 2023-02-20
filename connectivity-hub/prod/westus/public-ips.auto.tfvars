@@ -11,5 +11,10 @@ public_ip_configs = [
     name              = "api-litehouse-dev-pip"
     prefix_name       = "dev-apps"
     domain_name_label = "api-litehouse-dev"
+  },
+  {
+    name              = "fdp-ftp-server"
+    prefix_name       = "dev-apps"
+    domain_name_label = "ftp-dev"
   }
 ]

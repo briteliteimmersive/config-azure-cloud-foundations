@@ -3,10 +3,10 @@ firewall_policies = [{
   dns = {
     proxy_enabled = true
     sku           = "Standard"
-    servers       = [
-      "76.79.203.134",  ## NS1.hsventures.net 
-      "76.80.191.198"   ## ns3.hsventures.net
-    ]
+#     servers       = [
+#       "76.79.203.134",  ## NS1.hsventures.net 
+#       "76.80.191.198"   ## ns3.hsventures.net
+#     ]
   }
   rule_groups = [
     {
@@ -16,7 +16,7 @@ firewall_policies = [{
         {
           name     = "fw-app-rule-collection-01"
           action   = "Allow"
-          priority = 1000
+          priority = 5000
           rules = [
             {
               name = "app-rule-01"
@@ -34,7 +34,7 @@ firewall_policies = [{
         {
           name     = "fw-dnat-rule-collection-01"
           action   = "Dnat"
-          priority = 2000
+          priority = 1000
           rules = [
             {
               name                = "litehouse-dev"
