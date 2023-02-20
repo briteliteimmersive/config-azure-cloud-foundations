@@ -71,6 +71,15 @@ firewall_policies = [{
               source_addresses    = ["*"]
               translated_address  = "172.26.16.4"
               translated_port     = 80
+            },
+            {
+              name                = "ft-server-dev"
+              destination_address = "13.86.228.162"
+              destination_ports   = ["80"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.5"
+              translated_port     = 80
             }
           ]
 
