@@ -101,7 +101,7 @@ firewall_policies = [{
             {
               name                  = "Temp-Internet-Outbound"
               destination_addresses = ["*"]
-              destination_ports     = ["445"]
+              destination_ports     = ["445", "5000-5100", "990"]
               protocols             = ["Any"]
               source_addresses      = ["172.16.0.0/12"]
             }
