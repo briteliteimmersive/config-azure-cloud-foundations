@@ -80,6 +80,15 @@ firewall_policies = [{
               source_addresses    = ["*"]
               translated_address  = "172.26.12.5"
               translated_port     = 21
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["20"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.5"
+              translated_port     = 20
             }
           ]
 
@@ -101,7 +110,7 @@ firewall_policies = [{
             {
               name                  = "Temp-Internet-Outbound"
               destination_addresses = ["*"]
-              destination_ports     = ["445", "5000-5100", "990"]
+              destination_ports     = ["445", "5000-5100", "990", "21","20"]
               protocols             = ["Any"]
               source_addresses      = ["172.16.0.0/12"]
             }
