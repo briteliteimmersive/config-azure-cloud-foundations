@@ -75,7 +75,7 @@ firewall_policies = [{
             {
               name                = "ft-server-dev"
               destination_address = "13.86.228.162"
-              destination_ports   = ["443"]
+              destination_ports   = ["21"]
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.12.5"
