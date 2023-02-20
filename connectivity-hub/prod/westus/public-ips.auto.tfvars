@@ -15,6 +15,6 @@ public_ip_configs = [
   {
     name              = "fdp-ftp-dev-pip"
     prefix_name       = "dev-apps"
-    domain_name_label = "ftp-dev"
+    domain_name_label = "fdp-ftp-dev"
   }
 ]
