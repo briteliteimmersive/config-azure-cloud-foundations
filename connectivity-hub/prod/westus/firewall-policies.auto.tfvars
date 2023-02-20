@@ -75,7 +75,7 @@ firewall_policies = [{
             {
               name                = "fdp-ftp-server-dev"
               destination_address = "13.86.228.163"
-              destination_ports   = ["443"]
+              destination_ports   = ["21"]
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.12.5"
