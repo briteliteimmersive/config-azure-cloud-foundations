@@ -7,6 +7,6 @@ firewall_config = {
   associated_public_ips = [
     "litehouse-dev-pip",
     "api-litehouse-dev-pip",
-    "fdp-ftp-server"
+    "fdp-ftp-dev-pip"
   ]
 }
