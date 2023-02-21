@@ -7,7 +7,13 @@ dns_zones = [
         name = "litehouse-dev"
         ttl = 5
         records = [
-          "13.86.228.160",
+          "13.86.228.160"
+        ]
+      },
+      {
+        name = "api-litehouse-dev"
+        ttl = 5
+        records = [
           "13.86.228.161"
         ]
       }
