@@ -6,7 +6,6 @@ firewall_config = {
   firewall_policy_name   = "zu7nhubafp001-fw-policy-01"
   associated_public_ips = [
     "litehouse-dev-pip",
-    "api-litehouse-dev-pip",
-    "fdp-ftp-dev-pip"
+    "api-litehouse-dev-pip"
   ]
 }
