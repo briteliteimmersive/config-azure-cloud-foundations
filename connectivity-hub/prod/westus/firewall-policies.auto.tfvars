@@ -84,11 +84,29 @@ firewall_policies = [{
             {
               name                = "fdp-ftp-server-dev"
               destination_address = "13.86.228.163"
-              destination_ports   = ["20"]
+              destination_ports   = ["5000"]
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.12.4"
-              translated_port     = 20
+              translated_port     = 5000
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5001"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5001
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5002"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5002
             }
           ]
 
@@ -110,7 +128,7 @@ firewall_policies = [{
             {
               name                  = "Temp-Internet-Outbound"
               destination_addresses = ["*"]
-              destination_ports     = ["445", "5000-5100", "990", "21","20"]
+              destination_ports     = ["445", "5000-5002", "21"]
               protocols             = ["Any"]
               source_addresses      = ["172.16.0.0/12"]
             }
