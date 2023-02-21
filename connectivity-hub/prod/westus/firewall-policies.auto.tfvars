@@ -116,6 +116,78 @@ firewall_policies = [{
               source_addresses    = ["*"]
               translated_address  = "172.26.12.4"
               translated_port     = 5002
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5003"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5003
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5004"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5004
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5005"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5005
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5006"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5006
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5007"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5007
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5008"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5008
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5009"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5009
+            },
+            {
+              name                = "fdp-ftp-server-dev"
+              destination_address = "13.86.228.163"
+              destination_ports   = ["5010"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.12.4"
+              translated_port     = 5010
             }
           ]
 
