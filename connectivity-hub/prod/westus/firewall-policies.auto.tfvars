@@ -134,13 +134,6 @@ firewall_policies = [{
               protocols             = ["Any"]
               source_addresses      = ["172.16.0.0/12"]
             },
-            {
-              name                  = "Temp-Internet-Outbound-FTP"
-              destination_addresses = ["*"]
-              destination_ports     = ["*"]
-              protocols             = ["Any"]
-              source_addresses      = ["172.26.12.4"]
-            }
           ]
         }
       ]
