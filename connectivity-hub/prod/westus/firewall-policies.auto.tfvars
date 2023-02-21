@@ -206,6 +206,13 @@ firewall_policies = [{
               protocols             = ["Any"]
               source_addresses      = ["172.16.0.0/12"]
             },
+            {
+              name                  = "Temp-Storage-Internet-Outbound"
+              destination_addresses = ["*"]
+              destination_ports     = ["445"]
+              protocols             = ["Any"]
+              source_addresses      = ["172.26.12.4"]
+            },
           ]
         }
       ]
