@@ -48,7 +48,7 @@ firewall_policies = [{
             {
               name                = "api-litehouse-dev"
               destination_address = "13.86.228.161"
-              destination_ports   = ["443", "80"]
+              destination_ports   = ["443"]
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.16.4"
@@ -67,7 +67,7 @@ firewall_policies = [{
             {
               name                  = "Internet-Outbound"
               destination_addresses = ["*"]
-              destination_ports     = ["443", "80"]
+              destination_ports     = ["443"]
               protocols             = ["Any"]
               source_addresses      = ["172.16.0.0/12"]
             }
