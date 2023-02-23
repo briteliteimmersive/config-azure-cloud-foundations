@@ -54,6 +54,24 @@ firewall_policies = [{
               translated_address  = "172.26.16.4"
               translated_port     = 443
             },
+            {
+              name                = "api-litehouse-dev"
+              destination_address = "13.86.228.161"
+              destination_ports   = ["80"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.16.4"
+              translated_port     = 443
+            },
+            {
+              name                = "api-litehouse-dev"
+              destination_address = "13.86.228.161"
+              destination_ports   = ["80"]
+              protocols           = ["TCP"]
+              source_addresses    = ["*"]
+              translated_address  = "172.26.16.4"
+              translated_port     = 443
+            },
           ]
 
         }
