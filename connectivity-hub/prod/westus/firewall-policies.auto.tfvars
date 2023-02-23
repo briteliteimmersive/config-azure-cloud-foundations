@@ -39,7 +39,7 @@ firewall_policies = [{
             {
               name                = "litehouse-dev"
               destination_address = "13.86.228.160"
-              destination_ports   = ["443", "80"]
+              destination_ports   = ["443"]
               protocols           = ["TCP"]
               source_addresses    = ["*"]
               translated_address  = "172.26.16.4"
