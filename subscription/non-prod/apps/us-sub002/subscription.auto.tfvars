@@ -24,6 +24,12 @@ subscription_config = {
         object_ids = [
           "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
         ]
+      },
+      {
+        role_definition_id = "00482a5a-887f-4fb3-b363-3b7fe8e74483" ## Key Vault Administrator
+        object_ids = [
+          "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+        ]
       }
     ]
   }
