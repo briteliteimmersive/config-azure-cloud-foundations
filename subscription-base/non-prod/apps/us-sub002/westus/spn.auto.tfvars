@@ -19,6 +19,6 @@ subscription_spns = [
     ]
   },
   {
-    name               = "spn-lths-c-d001" # Dev SPN for litehouse app team
+    name               = "spn-lths-x-d001" # Dev SPN for litehouse app team
   }
 ]
